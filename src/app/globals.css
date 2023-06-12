@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gradient-radial-zinc p-10;
+  @apply bg-slate-300 p-10;
 }
