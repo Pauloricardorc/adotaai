@@ -16,7 +16,7 @@ module.exports = {
       boxShadow: {
         'iconShadow': '12px 0px 12px 2px #2563eb80',
         'innerShadow': 'inset 0 2px 6px 0 rgb(0 0 0 / 0.02)',
-        'shadow-button': '0px 0px 12px 1px #94a3b890'
+        'shadow-button': '0px 0px 12px 1px'
       }
     },
   },

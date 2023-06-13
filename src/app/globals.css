@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-300 p-10;
+  @apply bg-slate-100;
 }
