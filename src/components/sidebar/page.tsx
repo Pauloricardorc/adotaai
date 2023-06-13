@@ -62,8 +62,8 @@ export default function Sidebar() {
               <div
                 className={
                   menu.rota !== pathname
-                    ? "flex items-center gap-4 text-gray-500 hover:bg-slate-300 hover:px-6 rounded-md p-3 cursor-pointer transition-all duration-200 hover:shadow-shadow-button hover:shadow-gray-300"
-                    : "flex items-center gap-4 text-gray-200 bg-blue-400 px-6 rounded-md p-3 cursor-pointer transition-all shadow-shadow-button shadow-blue-400 duration-300"
+                    ? "flex font-light items-center gap-4 text-gray-500 hover:bg-slate-300 hover:px-6 rounded-md p-3 cursor-pointer transition-all duration-200 hover:shadow-shadow-button hover:shadow-gray-300"
+                    : "flex font-light items-center gap-4 text-gray-200 bg-blue-400 px-6 rounded-md p-3 cursor-pointer transition-all shadow-shadow-button shadow-blue-400 duration-300"
                 }
               >
                 <span className="rounded-full">{menu.icon}</span>
@@ -74,7 +74,7 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="flex items-center justify-center pb-4">
-        <button className="flex gap-4 bg-slate-100 w-full rounded-xl p-3 text-gray-600 text-base active:bg-slate-100 active:shadow-2xl active:shadow-slate-400 active:text-gray-500 transition-all duration-500">
+        <button className="flex font-light gap-4 bg-slate-100 w-full rounded-xl p-3 text-gray-600 text-base active:bg-slate-100 active:shadow-2xl active:shadow-slate-400 active:text-gray-500 transition-all duration-500">
           <SignOut size={24} className="text-gray-500" weight="thin" />
           Sair
         </button>
