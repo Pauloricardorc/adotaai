@@ -19,14 +19,14 @@ export default function Sidebar() {
       icon: <House size={20} weight="fill" />,
     },
     {
-      name: "Cadastro",
-      rota: "/cadastro",
-      icon: <ReadCvLogo size={20} weight="fill" />,
-    },
-    {
       name: "Listagem",
       rota: "/listagem",
       icon: <UserList size={20} weight="fill" />,
+    },
+    {
+      name: "Cadastro",
+      rota: "/cadastro",
+      icon: <ReadCvLogo size={20} weight="fill" />,
     },
     {
       name: "Perfil",

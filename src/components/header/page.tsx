@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="w-full h-16 p-2 flex items-center">
+    <div className="w-full px-2 flex items-center">
       <div className="flex flex-1"></div>
       <div className="flex items-center gap-5">
         <div className="relative w-10 h-10 items-center justify-center flex cursor-pointer hover:bg-gray-200 rounded-full">

@@ -5,3 +5,11 @@
 body {
   @apply bg-slate-100;
 }
+
+::-webkit-scrollbar {
+  @apply bg-gray-100 w-1;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 w-3 h-3 rounded-full;
+}
